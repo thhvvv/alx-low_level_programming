@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
  * main - description prints numbers 0-9
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int i;
 
-	for(i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 		printf("%d", i);
 	printf("\n");
 	return (0);
